@@ -1,0 +1,18 @@
+.loader{
+    margin-right: calc(50vw - 100px);
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: rotate 5s infinite linear;
+    border: 4px dotted teal;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to {
+        transform: rotate(360deg) scale(1);
+    }
+}
